@@ -1,5 +1,7 @@
 ## Overview
-This repository contains the official implementation for the paper "Model for Peanuts: Hijacking ML models without Training Access is Possible." In this paper, we explore the threat of model hijacking in machine learning (ML) models, where an adversary aims to repurpose a victim model to perform a different task than its original one, without access to the model's training phase.
+This repository provides the official implementation of our SaTML 2025 paper "SnatchML: Hijacking ML Models without Training Access". In this paper, we investigate the threat of model hijacking in Machine Learning (ML) systems. Specifically, we demonstrate how an adversary can repurpose a pre-trained victim model to perform tasks different from its original objective—without requiring access to the model’s training process.
+
+![framework](figures/snatch.png)
 
 ## Features
 - Implementation of SnatchML algorithm
