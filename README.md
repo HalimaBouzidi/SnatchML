@@ -5,12 +5,12 @@ This repository provides the official implementation of our SaTML 2025 paper "Sn
 
  # Paper and Supplementary
 
-Please find our arXiv version [here](https://arxiv.org/abs/2406.01708) for the full paper with additional results. Our paper has been accepted for publication in the the 3rd IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2025), Acceptance rate 29%.
+The arXiv version -> [here](https://arxiv.org/abs/2406.01708) for the full paper with additional results. Our paper has been accepted for publication in the the 3rd IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2025), Acceptance rate 29%.
 
 ## Features
-- Implementation of SnatchML algorithm
-- Experimental setups and results for various hijacking scenarios
-- Datasets used for evaluation
+- Implementation of the SnatchML hijacking attack method.
+- Experimental setups and results for various hijacking scenarios.
+- Datasets used for evaluation.
 
 ## Datasets:
 - **CK+ Dataset**: Extended Cohn-Kanade dataset for emotion recognition.
@@ -27,7 +27,7 @@ Download the datasets provided in the following Google Drive link and upload the
 - Link to MIT_BIH dataset: https://drive.google.com/drive/folders/1s3Y623HYllFOBaudPRnwaCJO5APWf5XV?usp=drive_link
 
 ## Hijacking ER Models:
-To run the hijacking attack on ER models for re-identification on CK+ or biometric identification on Olivetti, Celebrity, and Synthetic datasets, run the following script by specifying: ER model architecture, hijacking dataset, and attack setting (white-box|black-box):
+To run the hijacking attack on ER models for re-identification on CK+ or biometric identification on Olivetti, Celebrity, and Synthetic datasets, run the following script by specifying in the argmenets: ER model architecture, hijacking dataset, and attack setting (white-box|black-box):
 ```shell
 $ python hijack_er.py --setting [black|white] --model [architecture] --hijack-dataset [target hijacking dataset]
 ```
@@ -38,7 +38,7 @@ $ python hijack_er.py --setting white --model mobilenet --hijack-dataset olivett
 ```
 
 ## Hijacking PDD Models:
-To run the hijacking attack on PDD models for recongnizing the type of the pneumonia infection (bacterial or viral) on the Chest X-ray dataset, run the following script by specifying: ER model architecture and attack setting (white-box|black-box):
+To run the hijacking attack on PDD models for recongnizing the type of the pneumonia infection (bacterial or viral) on the Chest X-ray dataset, run the following script by specifying in the argmenets: ER model architecture and attack setting (white-box|black-box):
 ```shell
 $ python hijack_pneu.py --setting [black|white] --model [architecture]
 ```
