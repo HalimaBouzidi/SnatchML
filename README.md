@@ -3,6 +3,10 @@ This repository provides the official implementation of our SaTML 2025 paper "Sn
 
 ![framework](figures/snatch.png)
 
+ # Paper and Supplementary
+
+Please find our arXiv version [here](https://arxiv.org/abs/2406.01708) for the full paper with additional results. Our paper has been accepted for publication in the the 3rd IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2025), Acceptance rate 29%.
+
 ## Features
 - Implementation of SnatchML algorithm
 - Experimental setups and results for various hijacking scenarios
@@ -81,3 +85,13 @@ $ python unlearn_pneu.py --setting [black|white] --model [architecture] --alpha 
 ```shell
 $ python unlearn_er.py --setting white --model mobilenet --hijack-dataset olivetti --alpha [0, 1] --beta [0, 1]
 ```
+
+If you find this implementation helpful, please consider citing our work:
+
+```BibTex
+@article{ghorbel2024model,
+  title={SnatchML: Hijacking ML Models without Training Access},
+  author={Ghorbel, Mahmoud and Bouzidi, Halima and Bilasco, Ioan Marius and Alouani, Ihsen},
+  journal={arXiv preprint arXiv:2406.01708},
+  year={2025}
+}
