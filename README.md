@@ -5,7 +5,7 @@ This repository provides the official implementation of our SaTML 2025 paper "Sn
 
 ## Paper and Supplementary
 
-The arXiv version -> [here](https://arxiv.org/abs/2406.01708) for the full paper with additional results. Our paper has been accepted for publication in the the 3rd IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2025), Acceptance rate 29%.
+For more details, please refer to the arXiv paper -> [SnatchML: Hijacking ML Models without Training Access](https://arxiv.org/abs/2406.01708) by Mahmoud Ghorbel, Halima Bouzidi, Ioan Marius Bilasco, and Ihsen Alouani. Our paper has been accepted for publication in the the 3rd IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2025), Acceptance rate 29%.
 
 ## Features
 - Implementation of the SnatchML hijacking attack method.
