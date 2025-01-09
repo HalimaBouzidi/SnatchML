@@ -3,7 +3,7 @@ This repository provides the official implementation of our SaTML 2025 paper "Sn
 
 ![framework](figures/snatch.png)
 
- # Paper and Supplementary
+## Paper and Supplementary
 
 The arXiv version -> [here](https://arxiv.org/abs/2406.01708) for the full paper with additional results. Our paper has been accepted for publication in the the 3rd IEEE Conference on Secure and Trustworthy Machine Learning (SaTML 2025), Acceptance rate 29%.
 
@@ -86,6 +86,7 @@ $ python unlearn_pneu.py --setting [black|white] --model [architecture] --alpha 
 $ python unlearn_er.py --setting white --model mobilenet --hijack-dataset olivetti --alpha [0, 1] --beta [0, 1]
 ```
 
+## Citation and Reference:
 If you find this implementation helpful, please consider citing our work:
 
 ```BibTex
